@@ -4,7 +4,8 @@
     $ sudo apt-get update
     $ sudo apt-get upgrade
     $ sudo apt-cache search nvidia*
- 
+
+![driver](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/driver.png)
 #### ($uname -r Kernel version 4.10.09)
 
 #### Install Nvidia Drivers
@@ -69,10 +70,15 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 
     $ nvidia-smi
 
+![gpu_setting](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png)
+
 ## __5. 安装CUDA CUDA Toolkit 9.0 Downloads__
-#### CUDA Toolkit 9.0 Downloads
-Download Installer for Linux Ubuntu 16.04 x86_64
-https://developer.nvidia.com/cuda-toolkit-archive
+#### Download Installer for Linux Ubuntu 16.04 x86_64
+<br>https://developer.nvidia.com/cuda-toolkit-archive
+
+![cuda9.0](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png)
+![cuda9.0_1](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png)
+
 #### Install Cuda
 
     $ sudo ./cuda_9.0.176_384.26_linux.run --no-opengl-libs
@@ -105,7 +111,8 @@ https://developer.nvidia.com/cuda-toolkit-archive
     $ sudo make
     $ ./bandwidthTest
     
-#### 如果两个测试的结果都是 Result = PASS CUDA安装成功 - Install successed
+#### 如果两个测试的结果都是Result = PASS CUDA安装成功 - Install successed
+
     
     export PATH="/usr/local/cuda/bin:$PATH"
     export LD_LIBRARY_PATH=“/usr/local/cuda/ lib64:$LD_LIBRARY_PATH”
