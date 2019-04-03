@@ -21,11 +21,11 @@ https://www.nvidia.com/Download/index.aspx
 
 ## __2. 禁用nouveau - Disabling Nouvea__
 
-#### • 新建-blacklist-nouveau.conf 输⼊入指令:(Create New Text) 
+#### • 新建-blacklist-nouveau.conf 输⼊指令:(Create New Text) 
 
     $ sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 
-#### • 往⽂文件中写⼊-input :
+#### • 往文件中写⼊-input :
     blacklist nouveau
     blacklist lbm-nouveau options
     nouveau modeset=0
@@ -90,12 +90,12 @@ https://developer.nvidia.com/cuda-toolkit-archive
     y #创建安装目目录的软链接
     n #不不复制Samples，因为在安装目目录下有/samples
 
-##### A. vim 打开.bashrc 在末⾏行行加⼊入以下命令 - Add following lines to .bashrc 
+##### A. vim 打开.bashrc 在末行加⼊以下命令 - Add following lines to .bashrc 
 ##### 执行指令更新 .bashrc 文件 - Reload .bashrc with 
     
     $ source .bashrc
 
-##### B. 安装及路路路路径测试，查看CUDA版本 CUDA Sample Testing:
+##### B. 安装及路径测试，查看CUDA版本 CUDA Sample Testing:
 
     $ nvcc -V
 
