@@ -1,5 +1,5 @@
 # Ubuntu 16.04 Deep Learning Environment Setup
-## __0.查看可安装驱动列表 Update and Upgrade__
+## __0.查看可安装驱动列表 - Update and Upgrade__
 	
     $ sudo apt-get update
     $ sudo apt-get upgrade
@@ -14,12 +14,12 @@ https://www.nvidia.com/Download/index.aspx
 #### Install: NVIDIA-Linux-x86_64-390.87.run
 
 
-## __1.卸载所有原驱动 uninstall all original drivers for safety__
+## __1.卸载所有原驱动 - uninstall all original drivers for safety__
 
     $ sudo apt-get purge nvidia*
 
 
-## __2. 禁用nouveau Disabling Nouvea__
+## __2. 禁用nouveau - Disabling Nouvea__
 
 #### • 新建-blacklist-nouveau.conf 输⼊入指令:(Create New Text) 
 
@@ -43,7 +43,7 @@ https://www.nvidia.com/Download/index.aspx
 #### 查看nouveau模块是否被加载，若无输出，则执行下一步 - If no output go to the next step.
 
 
-## __3. 安装Nvidia驱动 Install the Drivers__
+## __3. 安装Nvidia驱动 - Install the Drivers__
 
     Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面 
     Ctrl + Alt + F7-( Return back to GUI )回到桌面系统界面
