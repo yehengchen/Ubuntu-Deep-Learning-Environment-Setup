@@ -36,7 +36,7 @@ https://www.nvidia.com/Download/index.aspx
     
     $ sudo reboot 
 
-在终端执行行命令:(Terminal) 
+#### 在终端执行行命令:(Terminal) 
     
     $ lsmod | grep nouveau
 
@@ -52,7 +52,7 @@ https://www.nvidia.com/Download/index.aspx
 
     $ sudo service lightdm stop
 
-给驱动run文件赋予执行权限(根据版本执行 “___” check version)
+#### 给驱动run文件赋予执行权限(根据版本执行 “___” check version)
 
     $ sudo chmod a+x NVIDIA-Linux-x86_64-390.87.run
     $ sudo ./NVIDIA-Linux-x86_64-390.87.run -no-opengl-files -no-x-check -no-nouveau-check
@@ -60,7 +60,7 @@ https://www.nvidia.com/Download/index.aspx
 #### -重点-(界面循环登录问题)
 __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安装驱动时不检查X服务 -no-nouveau-check 安装驱动时不检查nouveau模块__
   
--安装驱动时-
+#### -安装驱动时-
     
     “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”  
     选择 Choose No，安装完 After above 
