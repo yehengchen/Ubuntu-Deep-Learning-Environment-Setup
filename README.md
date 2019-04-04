@@ -1,5 +1,5 @@
 # Ubuntu 16.04 Deep Learning Environment Setup
-## __0.查看可安装驱动列表 - Update and Upgrade__
+## __0. 查看可安装驱动列表 - Update and Upgrade__
 	
     $ sudo apt-get update
     $ sudo apt-get upgrade
@@ -14,7 +14,7 @@ https://www.nvidia.com/Download/index.aspx
 #### *Install: NVIDIA-Linux-x86_64-390.87.run
 
 
-## __1.卸载所有原驱动 - uninstall all original drivers for safety__
+## __1. 卸载所有原驱动 - uninstall all original drivers for safety__
 
     $ sudo apt-get purge nvidia*
 
@@ -66,7 +66,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     选择 Choose No，安装完 After above 
     $sudo reboot
 
-## __4.Nvidia驱动安装完成 - Check Driver was successfully installed__
+## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
 
     $ nvidia-smi
 
