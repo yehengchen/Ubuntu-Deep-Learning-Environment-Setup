@@ -79,6 +79,7 @@ https://developer.nvidia.com/cuda-toolkit-archive
 
 <div align="center">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="650">
+</div>
 <div align="center">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="640"><br><br>
 </div>
