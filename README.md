@@ -76,8 +76,10 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 #### Download Installer for Linux Ubuntu 16.04 x86_64
 https://developer.nvidia.com/cuda-toolkit-archive
 
-![cuda9.0](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png)
-![cuda9.0_1](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png)
+<div align="center">
+  ![cuda9.0](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png)
+  ![cuda9.0_1](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png)
+</div>
 
 #### Install Cuda
 
