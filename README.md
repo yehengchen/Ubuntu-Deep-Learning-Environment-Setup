@@ -5,7 +5,9 @@
     $ sudo apt-get upgrade
     $ sudo apt-cache search nvidia*
 
-![driver](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/driver.png)
+<div align="right">
+  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/driver.png" width="920">
+</div>
 #### *($uname -r Kernel version 4.10.09)
 
 #### Install Nvidia Drivers
@@ -77,10 +79,10 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 https://developer.nvidia.com/cuda-toolkit-archive
 
 
-<div align="center">
-  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="650">
+<div align="right">
+  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="680">
 </div>
-<div align="center">
+<div align="right">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="640"><br><br>
 </div>
 
