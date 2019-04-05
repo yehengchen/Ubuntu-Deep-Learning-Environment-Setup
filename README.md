@@ -64,8 +64,8 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
   
 #### -安装驱动时-
     
-    “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”  
-    选择 Choose No，安装完 After above 
+    “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
+    Choose No，安装完 After above 
     $sudo reboot
 
 ## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
@@ -172,7 +172,8 @@ https://developer.nvidia.com/rdp/cudnn-archive
 
 ### 卸载Cuda - uninstall Cuda:
     
-    $ cd /usr/local/cuda/bin $ sudo ./uninstall_cuda_7.5.pl
+    $ cd /usr/local/cuda/bin 
+    $ sudo ./uninstall_cuda_7.5.pl
     
 ### 卸载Cudnn - uninstall Cudnn:
 
