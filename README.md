@@ -90,11 +90,11 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs
     ...
     accept #同意安装
-    n #不安装Driver，因为已安装最新Navida驱动 uninstall nvidia
+    n #不安装Driver，因为已安装Nvidia驱动-already installed Nvidia
     y #安装CUDA Toolkit install
-    <Enter> #安装到默认目目录
-    y #创建安装目目录的软链接
-    n #不不复制Samples，因为在安装目目录下有/samples
+    <Enter> #安装到默认目录
+    y #创建安装目录的软链接
+    n #不复制Samples，因为在安装目录下有/samples
 
 ##### A. vim 打开.bashrc 在末行加⼊以下命令 - Add following lines to .bashrc 
 ##### 执行指令更新 .bashrc 文件 - Reload .bashrc with 
