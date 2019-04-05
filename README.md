@@ -8,6 +8,7 @@
 <div align="right">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/driver.png" width="920">
 </div>
+
 #### *($uname -r Kernel version 4.10.09)
 
 #### Install Nvidia Drivers
@@ -76,8 +77,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 
 ## __5. 安装CUDA - CUDA Toolkit 9.0 Downloads__
 #### Download Installer for Linux Ubuntu 16.04 x86_64
-https://developer.nvidia.com/cuda-toolkit-archive
-
+#### cuda_9.0.176_384.81_linux.run [[CUDA Link]](https://developer.nvidia.com/cuda-toolkit-archive)
 
 <div align="left">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="680">
@@ -88,7 +88,7 @@ https://developer.nvidia.com/cuda-toolkit-archive
 
 #### Install Cuda
 
-    $ sudo ./cuda_9.0.176_384.26_linux.run --no-opengl-libs
+    $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs
     ...
     accept #同意安装
     n #不安装Driver，因为已安装最新Navida驱动 uninstall nvidia
@@ -132,8 +132,8 @@ https://developer.nvidia.com/cuda-toolkit-archive
      $ sudo make
      $ ./bandwidthTest
  
-## 6. 安装cuDNN - Download cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0
-https://developer.nvidia.com/rdp/cudnn-archive
+## 6. 安装cuDNN - Download cuDNN 
+#### cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0 [[cuDNN Link]](https://developer.nvidia.com/rdp/cudnn-archive)
 ![cudnn](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cudnn.png)
 ##### 解压后的 cudnn-9.0-linux-x64-v7.1.tgz ⽂文件cuda，执行以下指令安装: -Install cuda
 
