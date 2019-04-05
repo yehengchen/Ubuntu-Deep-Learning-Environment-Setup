@@ -85,7 +85,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="640"><br><br>
 </div>
 
-#### Install Cuda
+### Install CUDA
 
     $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs
     ...
@@ -134,7 +134,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 ## 6. 安装cuDNN - Download cuDNN 
 #### Download Version: cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0 [[cuDNN Link]](https://developer.nvidia.com/rdp/cudnn-archive)
 ![cudnn](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cudnn.png)
-##### 解压后的 cudnn-9.0-linux-x64-v7.1.tgz ⽂文件cuda，执行以下指令安装: -Install cuda
+##### 解压后的 cudnn-9.0-linux-x64-v7.1.tgz ⽂文件cuda，执行以下指令安装:-Install cudnn
 
     $ tar -zxvf cudnn-9.0-linux-x64-v7.1.tgz
     $ cd cuda $ sudo cp lib64/lib* /usr/local/cuda/lib64/
