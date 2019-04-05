@@ -59,7 +59,7 @@ https://www.nvidia.com/Download/index.aspx
     $ sudo chmod a+x NVIDIA-Linux-x86_64-390.87.run
     $ sudo ./NVIDIA-Linux-x86_64-390.87.run -no-opengl-files -no-x-check -no-nouveau-check
 
-#### -重点-(界面循环登录问题)
+#### -重点-(登录界面循环问题)
 __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安装驱动时不检查X服务 -no-nouveau-check 安装驱动时不检查nouveau模块__
   
 #### -安装驱动时-
