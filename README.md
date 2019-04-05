@@ -10,11 +10,10 @@
 </div>
 
 #### *($uname -r Kernel version 4.10.09)
+#### Install Version: NVIDIA-Linux-x86_64-390.87.run
+#### Download Nvidia Drivers: [[Nvidia Link]](https://www.nvidia.com/Download/index.aspx)
 
-#### Install Nvidia Drivers
-https://www.nvidia.com/Download/index.aspx 
 
-#### *Install: NVIDIA-Linux-x86_64-390.87.run
 
 
 ## __1. 卸载所有原驱动 - uninstall all original drivers for safety__
@@ -77,7 +76,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 
 ## __5. 安装CUDA - CUDA Toolkit 9.0 Downloads__
 #### Download Installer for Linux Ubuntu 16.04 x86_64
-#### cuda_9.0.176_384.81_linux.run [[CUDA Link]](https://developer.nvidia.com/cuda-toolkit-archive)
+#### Download CUDA: cuda_9.0.176_384.81_linux.run [[CUDA Link]](https://developer.nvidia.com/cuda-toolkit-archive)
 
 <div align="left">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="680">
@@ -133,7 +132,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
      $ ./bandwidthTest
  
 ## 6. 安装cuDNN - Download cuDNN 
-#### cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0 [[cuDNN Link]](https://developer.nvidia.com/rdp/cudnn-archive)
+#### Download Version: cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0 [[cuDNN Link]](https://developer.nvidia.com/rdp/cudnn-archive)
 ![cudnn](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cudnn.png)
 ##### 解压后的 cudnn-9.0-linux-x64-v7.1.tgz ⽂文件cuda，执行以下指令安装: -Install cuda
 
@@ -147,7 +146,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     $ sudo ln -sf libcudnn.so.7.1.4 libcudnn.so.7
     $ sudo ln -sf libcudnn.so.7 libcudnn.so $ sudo ldconfig
 
-## __7. 安装Tensorflow-gpu - Download Tensorflow-gpu__
+## __7. 安装Tensorflow-gpu - Install Tensorflow-gpu__
 
      $ pip install --user tensorflow-gpu
 
