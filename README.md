@@ -96,7 +96,11 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     y #创建安装目录的软链接
     n #不复制Samples，因为在安装目录下有/samples
 
-##### A. vim 打开.bashrc 在末行加⼊以下命令 - Add following lines to .bashrc 
+##### A. vim 打开.bashrc 在末行加⼊以下命令 - Add following lines to .bashrc
+    
+    export PATH="/usr/local/cuda/bin:$PATH"
+    export LD_LIBRARY_PATH=“/usr/local/cuda/ lib64:$LD_LIBRARY_PATH”
+
 ##### 执行指令更新 .bashrc 文件 - Reload .bashrc with 
     
     $ source .bashrc
@@ -117,12 +121,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     $ sudo make
     $ ./bandwidthTest
     
-#### 如果两个测试的结果都是 *Result = PASS CUDA* 安装成功 - Install successed
-
-    
-    export PATH="/usr/local/cuda/bin:$PATH"
-    export LD_LIBRARY_PATH=“/usr/local/cuda/ lib64:$LD_LIBRARY_PATH”
-<br>    
+#### 如果两个测试的结果都是 *Result = PASS CUDA* 安装成功 - Install successed 
      
      $ cd /usr/local/cuda-9.0/samples/1_Utilities/deviceQuery
      $ sudo make
