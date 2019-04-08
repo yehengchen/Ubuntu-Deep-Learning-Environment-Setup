@@ -141,9 +141,11 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 
 ##### 然后更新网络连接:-Updata Network Connection
 
-    $ cd /usr/local/cuda/lib64/ $ sudo chmod +r libcudnn.so.7.1.4
+    $ cd /usr/local/cuda/lib64/ 
+    $ sudo chmod +r libcudnn.so.7.1.4
     $ sudo ln -sf libcudnn.so.7.1.4 libcudnn.so.7
-    $ sudo ln -sf libcudnn.so.7 libcudnn.so $ sudo ldconfig
+    $ sudo ln -sf libcudnn.so.7 libcudnn.so 
+    $ sudo ldconfig
 
 ## __7. 安装Tensorflow-gpu - Install Tensorflow-gpu__
 
