@@ -159,6 +159,7 @@
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow.png" width="60%" height="60%">
 
 ## 9. 常见配置问题 - Issues
+
 ### 登⼊界⾯死循环问题: Login loop issue
 #### 1. 进入文本界面: CTRL+ALT+F1
 #### 2. Uninstall any previous drivers:
@@ -183,7 +184,7 @@
     $ sudo rm -rf /usr/local/cuda/include/cudnn.h sudo rm -rf /usr/
     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
     
-## 调整屏幕分辨率: change the display resolution
+### 调整屏幕分辨率: Display resolution issue
 
 ### METHOD1:
 #### 添加 /etc/X11/xorg.conf 文件，将此模式保存为默认分辨率。 
