@@ -67,9 +67,8 @@
 #### 安装驱动时 (Downloading)
     
     “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
-    Choose No，安装完 After above 
-    
-    $sudo reboot
+    Choose No.
+    After above: $sudo reboot
 
 ## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
 
