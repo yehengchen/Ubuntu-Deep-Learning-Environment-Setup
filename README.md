@@ -6,7 +6,7 @@
     $ sudo apt-cache search nvidia*
 
 <div align="right">
-  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/driver.png" width="920">
+  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/driver.png" width="600">
 </div>
 
 #### (Kernel Version 4.10.09)
@@ -71,18 +71,17 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 ## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
 
     $ nvidia-smi
-
-![gpu_setting](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png)
+<img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png" width="60%" height="60%">
 
 ## __5. 安装CUDA - CUDA Toolkit 9.0 Downloads__
 #### Download Installer for Linux Ubuntu 16.04 x86_64
 #### Download CUDA: cuda_9.0.176_384.81_linux.run [[CUDA Link]](https://developer.nvidia.com/cuda-toolkit-archive)
 
 <div align="left">
-  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="680">
+  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="400">
 </div>
 <div align="left">
-  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="640"><br><br>
+  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="400"><br><br>
 </div>
 
 ### Install CUDA
@@ -151,9 +150,11 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 
      $ pip install --user tensorflow-gpu
 
-![tensorflow-gpu](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow-gpu.png)
+<img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow-gpu.png" width="60%" height="60%">
+
 ## 8. 测试 - Testing
-![tensorflow](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow.png)
+
+<img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow.png" width="60%" height="60%">
 
 ## 9. 常见配置问题 - Problem
 ### 登⼊界⾯死循环问题: Login loop problem
