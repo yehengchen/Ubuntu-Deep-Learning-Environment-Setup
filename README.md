@@ -180,9 +180,9 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     $ sudo rm -rf /usr/local/cuda/include/cudnn.h sudo rm -rf /usr/
     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
     
-### 调整屏幕分辨率: change the display resolution
+## 调整屏幕分辨率: change the display resolution
 
-
+### METHOD1:
 #### 添加 /etc/X11/xorg.conf 文件，将此模式保存为默认分辨率。 
     
     $ sudo gedit /etc/X11/xorg.conf
@@ -204,6 +204,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     Identifier "Configured Video Device"
     EndSection
 
+### METHOD2: 
 #### 生成指定分辨率 （one-off）
 
 	$ cvt 1920 1080
