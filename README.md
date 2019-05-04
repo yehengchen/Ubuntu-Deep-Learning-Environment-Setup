@@ -54,13 +54,15 @@
 
     $ sudo service lightdm stop
 
-#### 给驱动run文件赋予执行权限(根据版本执行 “___” check version)
+#### 给驱动run文件赋予执行权限(根据版本执行 - Check your NVIDIA version)
 
     $ sudo chmod a+x NVIDIA-Linux-x86_64-390.87.run
     $ sudo ./NVIDIA-Linux-x86_64-390.87.run -no-opengl-files -no-x-check -no-nouveau-check
 
 #### [Tips] (登录界面循环问题 - Login loop issue)
-__-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安装驱动时不检查X服务 -no-nouveau-check 安装驱动时不检查nouveau模块__
+* -no-opengl-files 只安装驱动文件，不安装OpenGL文件 (no install OpenGL file)
+* -no-x-check 安装驱动时不检查X服务器 (no check X server)
+* -no-nouveau-check 安装驱动时不检查nouveau模块 （no check nouveau module）
   
 #### 安装驱动时 (Downloading)
     
