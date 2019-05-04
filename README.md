@@ -59,13 +59,14 @@
     $ sudo chmod a+x NVIDIA-Linux-x86_64-390.87.run
     $ sudo ./NVIDIA-Linux-x86_64-390.87.run -no-opengl-files -no-x-check -no-nouveau-check
 
-#### -重点-(登录界面循环问题)
+#### [Tips] (登录界面循环问题 - Login loop issue)
 __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安装驱动时不检查X服务 -no-nouveau-check 安装驱动时不检查nouveau模块__
   
-#### -安装驱动时-
+#### 安装驱动时 (Downloading)
     
     “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
     Choose No，安装完 After above 
+    
     $sudo reboot
 
 ## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
@@ -156,8 +157,8 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow.png" width="60%" height="60%">
 
-## 9. 常见配置问题 - Problem
-### 登⼊界⾯死循环问题: Login loop problem
+## 9. 常见配置问题 - Issues
+### 登⼊界⾯死循环问题: Login loop issue
 #### 1. 进入文本界面: CTRL+ALT+F1
 #### 2. Uninstall any previous drivers:
     
