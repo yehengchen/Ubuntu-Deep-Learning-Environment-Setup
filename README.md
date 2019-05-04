@@ -203,3 +203,16 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     Section "Device"
     Identifier "Configured Video Device"
     EndSection
+
+#### 生成指定分辨率 （one-off）
+
+	$ cvt 1920 1080
+	# 1920x1080 59.96 Hz (CVT 2.07M9) hsync: 67.16 kHz; pclk: 173.00 MHz
+	Modeline "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+
+#### 使用xrandr创建new mode （make newmode）
+	$ sudo xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+#### 添加newmode,终端输入xrand查看显示器名称 (add mode)
+	$ sudo xrand --addmode [THE NAME OF YOUR DISPLAY] "1920x1080_60.00"
+#### 将分辨率应用到输出设备 （output display）
+	$ sudo xrand --output [THE NAME OF YOUR DISPLAY] --mode "1920x1080_60.00"
