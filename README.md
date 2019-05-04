@@ -1,11 +1,11 @@
 # Ubuntu 16.04 Deep Learning Environment Setup
 
-* ### GeForce GTX 1080 Ti
-* ### NVIDIA 390.87
-* ### cuda 9.0
-* ### cuDNN v7.1.4
-* ### tensorflow-gpu 1.10.1
-* ### python 3.5
+* #### GeForce GTX 1080 Ti
+* #### NVIDIA 390.87
+* #### cuda 9.0
+* #### cuDNN v7.1.4
+* #### tensorflow-gpu 1.10.1
+* #### python 3.5
 
 ## __0. 查看可安装驱动列表 - Update and Upgrade__
 	
