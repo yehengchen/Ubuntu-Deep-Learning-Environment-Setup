@@ -5,7 +5,7 @@
     $ sudo apt-get upgrade
     $ sudo apt-cache search nvidia*
 
-<div align="right">
+<div align="left">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/driver.png" width="600">
 </div>
 
