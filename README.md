@@ -37,10 +37,7 @@
 
 #### • 往文件中写⼊-input :
     blacklist nouveau
-    blacklist lbm-nouveau options
-    nouveau modeset=0
-    alias nouveau off
-    alias lbm-nouveau off
+    options nouveau modeset=0
 
 #### 禁 Ubuntu自带开源驱动nouveau，写入后 After above 重启系统 - Disabling Nouveau
     
