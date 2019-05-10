@@ -31,11 +31,11 @@
 
 ## __2. 禁用nouveau - Disabling Nouvea__
 
-#### • 新建-blacklist-nouveau.conf 输⼊指令:(Create New Text) 
+#### • 新建-blacklist-nouveau.conf 输⼊指令:(Create a file)
 
     $ sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 
-#### • 往文件中写⼊-input :
+#### • 往文件中写⼊-input :(with the following contents)
     blacklist nouveau
     options nouveau modeset=0
 
