@@ -154,8 +154,9 @@
     $ sudo ldconfig
 
 ## __7. 安装Tensorflow-gpu - Install Tensorflow-gpu__
-
-     $ pip install --user tensorflow-gpu
+	
+	$ sudo pip3 uninstall tensorflow
+    $ pip3 install --user tensorflow-gpu==1.10.0
 
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow-gpu.png" width="60%" height="60%">
 
