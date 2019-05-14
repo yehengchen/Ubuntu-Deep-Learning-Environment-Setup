@@ -4,7 +4,7 @@
 * #### NVIDIA 390.87
 * #### cuda 9.0
 * #### cuDNN v7.1.4
-* #### tensorflow-gpu 1.10.1
+* #### tensorflow-gpu 1.10.0
 * #### python 3.5
 
 ## __0. 查看可安装驱动列表 - Update and Upgrade__
