@@ -180,6 +180,18 @@
 #### 4. 此时，重启 - Reboot -> login normally
 #### 5. 驱动重新安装 - Driver reinstall
 
+
+#### NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running
+
+	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507_4.15.7-041507.201802280530_all.deb
+
+	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507-generic_4.15.7-041507.201802280530_amd64.deb
+
+	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-image-4.15.7-041507-generic_4.15.7-041507.201802280530_amd64.deb
+
+	sudo dpkg -i *.deb
+
+
 ### 卸载Cuda - uninstall Cuda:
     
     $ cd /usr/local/cuda/bin 
