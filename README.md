@@ -157,9 +157,11 @@
     $ sudo ldconfig
 
 ## __7. 安装Tensorflow-gpu - Install Tensorflow-gpu__
-	
-	$ sudo pip3 uninstall tensorflow
+*注意这里 tensorflow-gpu 的版本要低于 1.10 否则 cuda 会报错误*
+
+    $ sudo pip3 uninstall tensorflow
     $ pip3 install --user tensorflow-gpu==1.10.0
+
 
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow-gpu.png" width="60%" height="60%">
 
