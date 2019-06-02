@@ -26,11 +26,11 @@
 
 
 
-
+***
 ## __1. 卸载所有原驱动 - uninstall all original drivers for safety__
 
     $ sudo apt-get purge nvidia*
-
+***
 
 ## __2. 禁用nouveau - Disabling Nouvea__
 
@@ -52,7 +52,7 @@
 
 #### 查看nouveau模块是否被加载，若无输出，则执行下一步 - If no output go to the next step.
 
-
+***
 ## __3. 安装Nvidia驱动 - Install the Drivers__
 
     Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面 
@@ -77,12 +77,12 @@
     “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
     Choose No.
     After above: $sudo reboot
-
+***
 ## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
 
     $ nvidia-smi
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png" width="60%" height="60%">
-
+***
 ## __5. 安装CUDA - CUDA Toolkit 9.0 Downloads__
 #### Download Installer for Linux Ubuntu 16.04 x86_64
 #### Download CUDA: cuda_9.0.176_384.81_linux.run [[CUDA Link]](https://developer.nvidia.com/cuda-toolkit-archive)
@@ -138,7 +138,7 @@
      $ cd ../bandwidthTest
      $ sudo make
      $ ./bandwidthTest
- 
+*** 
 ## 6. 安装cuDNN - Download cuDNN 
 #### Download Version: cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0 [[cuDNN Link]](https://developer.nvidia.com/rdp/cudnn-archive)
 ![cudnn](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cudnn.png)
@@ -155,7 +155,7 @@
     $ sudo ln -sf libcudnn.so.7.1.4 libcudnn.so.7
     $ sudo ln -sf libcudnn.so.7 libcudnn.so 
     $ sudo ldconfig
-
+***
 ## __7. 安装Tensorflow-gpu - Install Tensorflow-gpu__
 *注意这里 tensorflow-gpu 的版本要低于 1.10 否则 cuda 会报错误*
 
@@ -164,11 +164,11 @@
 
 
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow-gpu.png" width="60%" height="60%">
-
+***
 ## 8. 测试 - Testing
 
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow.png" width="60%" height="60%">
-
+***
 ## 9. 常见配置问题 - Issues
 
 ### 登⼊界⾯死循环问题: Login loop issue
@@ -253,7 +253,7 @@
 	$ sudo xrand --addmode [THE NAME OF YOUR DISPLAY] "1920x1080_60.00"
 #### 4.将分辨率应用到输出设备 （output display）
 	$ sudo xrand --output [THE NAME OF YOUR DISPLAY] --mode "1920x1080_60.00"
-
+***
 ## Uinstall - 卸载
 
 ### 卸载 nvidia - uninstall nvidia
