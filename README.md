@@ -166,11 +166,15 @@
 
 
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow-gpu.png" width="60%" height="60%">
+
 ***
+
 ## 8. 测试 - Testing
 
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow.png" width="60%" height="60%">
+
 ***
+
 ## 9. 常见配置问题 - Issues
 
 ### 登⼊界⾯死循环问题: Login loop issue
@@ -186,6 +190,7 @@
 
 #### 4. 此时，重启 - Reboot -> login normally
 #### 5. 驱动重新安装 - Driver reinstall
+
 ***
 
 ### NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running issue
