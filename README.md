@@ -179,10 +179,18 @@
 
 #### 4. 此时，重启 - Reboot -> login normally
 #### 5. 驱动重新安装 - Driver reinstall
+***
 
+### NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running issue
 
-#### NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running
+#### 0. 确认 Kernel 版本是否高于 4.10
+	$ uname -a
+	
+	#目前使用版本为 4.15
+	Linux CAI 4.15.0-50-generic #54~16.04.1-Ubuntu SMP Wed May 8 15:55:19 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 
+*__若版本低于 4.10 必须升级， 升级方法如下__*
+	
 	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507_4.15.7-041507.201802280530_all.deb
 
 	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507-generic_4.15.7-041507.201802280530_amd64.deb
@@ -190,7 +198,19 @@
 	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-image-4.15.7-041507-generic_4.15.7-041507.201802280530_amd64.deb
 
 	sudo dpkg -i *.deb
+*升级完成后 nvidia-smi 出现 GPU 使用狀況栏可不用重新安装 Driver， 若未出现可按步骤重新安装 Driver*
 
+#### 1. 确认是否插入显卡
+	$ lspci | grep 'VGA'
+	
+	#找到卡后，显示显卡讯息
+	01:00.0 VGA compatible controller: NVIDIA Corporation Device 1b06 (rev a1)
+
+#### 2. 确认 security boot 是否为disable的状态
+	a. 开机后, 进入Bios 设定画面(若是Acer的电脑, 按Del 或是F2 即可进入Bios)
+	b. 改成disable 后, 重新开机
+
+***
 
 ### 卸载Cuda - uninstall Cuda:
     
