@@ -82,7 +82,9 @@
 
     $ nvidia-smi
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png" width="60%" height="60%">
+
 ***
+
 ## __5. 安装CUDA - CUDA Toolkit 9.0 Downloads__
 #### Download Installer for Linux Ubuntu 16.04 x86_64
 #### Download CUDA: cuda_9.0.176_384.81_linux.run [[CUDA Link]](https://developer.nvidia.com/cuda-toolkit-archive)
