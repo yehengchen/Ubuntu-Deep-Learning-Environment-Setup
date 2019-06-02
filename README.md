@@ -171,12 +171,12 @@
 
 ### 登⼊界⾯死循环问题: Login loop issue
 #### 1. 进入文本界面: CTRL+ALT+F1
-#### 2. Uninstall any previous drivers:
+#### 2. Uninstall any previous drivers: - 删除 nvidia 相关文件
     
     $ sudo apt-get remove nvidia-*
     $ sudo apt-get autoremove       
 
-#### 3. Uninstall the drivers from the .run file:
+#### 3. Uninstall the drivers from the .run file: - 卸载 nvidia 驱动
 
     $ sudo nvidia-uninstall
 
@@ -214,17 +214,6 @@
 	b. 改成disable 后, 重新开机
 
 ***
-
-### 卸载Cuda - uninstall Cuda:
-    
-    $ cd /usr/local/cuda/bin 
-    $ sudo ./uninstall_cuda_7.5.pl
-    
-### 卸载Cudnn - uninstall Cudnn:
-
-    $ sudo rm -rf /usr/local/cuda/include/cudnn.h sudo rm -rf /usr/
-    $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
-    
 ### 调整屏幕分辨率: Display resolution issue
 
 ### METHOD1:
@@ -262,3 +251,20 @@
 	$ sudo xrand --addmode [THE NAME OF YOUR DISPLAY] "1920x1080_60.00"
 #### 4.将分辨率应用到输出设备 （output display）
 	$ sudo xrand --output [THE NAME OF YOUR DISPLAY] --mode "1920x1080_60.00"
+
+## Uinstall - 卸载
+
+### 卸载 nvidia - uninstall nvidia
+    $ sudo apt-get purge nvidia*
+
+### 卸载 Cuda - uninstall Cuda:
+    
+    $ cd /usr/local/cuda/bin 
+    $ sudo ./uninstall_cuda_7.5.pl
+    
+### 卸载 Cudnn - uninstall Cudnn:
+
+    $ sudo rm -rf /usr/local/cuda/include/cudnn.h sudo rm -rf /usr/
+    $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
+    
+   
