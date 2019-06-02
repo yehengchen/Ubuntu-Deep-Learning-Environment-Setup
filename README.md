@@ -273,7 +273,7 @@
     
 ### 卸载 Cudnn - uninstall Cudnn:
 
-    $ sudo rm -rf /usr/local/cuda/include/cudnn.h sudo rm -rf /usr/
+    $ sudo rm -rf /usr/local/cuda/include/cudnn.h
     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
     
    
