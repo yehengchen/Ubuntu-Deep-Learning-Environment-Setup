@@ -261,7 +261,7 @@
 #### 4.将分辨率应用到输出设备 （output display）
 	$ sudo xrand --output [THE NAME OF YOUR DISPLAY] --mode "1920x1080_60.00"
 ***
-## Uinstall - 卸载
+## Uninstall - 卸载
 
 ### 卸载 nvidia - uninstall nvidia
     $ sudo apt-get purge nvidia*
