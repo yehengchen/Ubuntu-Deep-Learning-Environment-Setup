@@ -1,4 +1,5 @@
 # Ubuntu 16.04 Deep Learning Environment Setup
+*tensorflow-gpu & Nvidia GPU & Cuda & Cudnn 环境配置*
 
 * #### GeForce GTX 1080 Ti
 * #### NVIDIA 390.87
