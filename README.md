@@ -9,8 +9,11 @@
 * #### python 3.5
 ***
 * #### GeForce RTX 2080 Ti
+* #### NVIDIA 410.48
 * #### cuda 10.0
+* #### cuDNN v7.5.0
 ***
+
 ## __0. 查看可安装驱动列表 - Update and Upgrade__
 	
     $ sudo apt-get update
