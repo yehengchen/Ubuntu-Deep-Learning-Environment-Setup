@@ -9,6 +9,7 @@
 * #### tensorflow-gpu 1.10.0
 * #### python 3.5
 ***
+* #### Ubuntu Kernel Version 4.15.0
 * #### GeForce RTX 2080 Ti
 * #### NVIDIA 410.48
 * #### cuda 10.0
