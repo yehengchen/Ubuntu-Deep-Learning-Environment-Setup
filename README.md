@@ -3,9 +3,6 @@
 <div align="left">
   <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_gpu_version.png" width="600">
 
-<div align="left">	
-  <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_9.0_10.0_kernel_version.png" width="630">
-
 ***
 * #### Ubuntu Kernel Version 4.10.09
 * #### GeForce GTX 1080 Ti
@@ -288,4 +285,7 @@
     $ sudo rm -rf /usr/local/cuda/include/cudnn.h
     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
     
+
+<div align="left">	
+  <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_9.0_10.0_kernel_version.png" width="630">
    
