@@ -8,8 +8,9 @@ __*RTX 2080 Ti 请按本文指定版本安装，更改相对应的安装文件�
 # Ubuntu 16.04 Deep Learning Environment Setup
 
 
+<div align="left">
+  <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_gpu_version.png" width="600">
 
-![官方文档](https://img-blog.csdnimg.cn/20190609193443676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODEwNzI3MQ==,size_16,color_FFFFFF,t_70)
 __GTX 1080 Ti 配置方案__
 * #### Ubuntu Kernel Version 4.10.09
 * #### GeForce GTX 1080 Ti
@@ -34,8 +35,8 @@ __若不符合要求请先升级或降级内核，或下载相应内核 (注意�
 
 __GTX 1080 Ti__
  
-  wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000_4.10.0-041000.201702191831_all.deb
-  wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
+  	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000_4.10.0-041000.201702191831_all.deb
+  	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
 	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-image-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
 	
 	sudo dpkg -i *.deb
@@ -84,9 +85,12 @@ __RTX 2080 Ti__
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190406154755146.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODEwNzI3MQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019040615480518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODEwNzI3MQ==,size_16,color_FFFFFF,t_70)    
-
+<div align="left">
+  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="400">
+</div>
+<div align="left">
+  <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="400"><br><br>
+</div>
 	Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面安装CUDA
   Ctrl + Alt + F7-( Return back to GUI )回到桌面系统界面
 
