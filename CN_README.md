@@ -33,7 +33,7 @@ __RTX 2080 Ti 配置方案__
 	 $ uname -a
 __若不符合要求请先升级或降级内核，或下载相应内核 (注意修改所需内核版本后进入相应内核版本 ubuntu)__
 
-__GTX 1080 Ti__
+__GTX 1080 Ti v4.10__
  
   	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000_4.10.0-041000.201702191831_all.deb
   	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
@@ -41,7 +41,7 @@ __GTX 1080 Ti__
 	
 	sudo dpkg -i *.deb
 	
-__RTX 2080 Ti__ 
+__RTX 2080 Ti v4.15__ 
 
 	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507_4.15.7-041507.201802280530_all.deb
 	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507-generic_4.15.7-041507.201802280530_amd64.deb
