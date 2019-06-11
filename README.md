@@ -90,6 +90,7 @@
 ## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
 
     $ nvidia-smi
+    
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png" width="60%" height="60%">
 
 ***
@@ -101,6 +102,7 @@
 <div align="left">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0.png" width="400">
 </div>
+
 <div align="left">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="400"><br><br>
 </div>
