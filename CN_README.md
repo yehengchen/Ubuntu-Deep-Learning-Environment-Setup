@@ -106,12 +106,12 @@ __RTX 2080 Ti v4.15__
     ...
     
    __*进入 CUDA 安装中同意安装 Nvidia 驱动*__
->     accept #同意安装
->     __y #安装Driver，将自动安装CUDA版本相匹配的Nvidia驱动__
->     y #安装CUDA Toolkit install
->     <Enter> #安装到默认目录
->     y #创建安装目录的软链接
->     n #不复制Samples，因为在安装目录下有/samples
+>     [accept] #同意安装
+>     [y]      #安装Driver，将自动安装CUDA版本相匹配的Nvidia驱动
+>     [y]      #安装CUDA Toolkit install
+>     <Enter>  #安装到默认目录
+>     [y]      #创建安装目录的软链接
+>     [n]      #不复制Samples，因为在安装目录下有/samples
 
 __*安装完成后会显示 CUDA 和 Nvidia 驱动成功安装*__
 ##### A. vim 打开.bashrc 在末行加⼊以下命令
