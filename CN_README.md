@@ -26,7 +26,7 @@ __RTX 2080 Ti 配置方案__
 * #### NVIDIA 410.48
 * #### cuda 10.0
 * #### cuDNN v7.5.0
-* #### tensorflow-gpu 1.13.0
+* #### tensorflow-gpu 1.13.1
 ***
 
 ## 0. 确认 Kernel Version 内核版本
