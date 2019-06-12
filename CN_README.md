@@ -116,7 +116,7 @@ __RTX 2080 Ti v4.15__
 __*安装完成后会显示 CUDA 和 Nvidia 驱动成功安装*__
 ##### A. vim 打开.bashrc 在末行加⼊以下命令
     export PATH="/usr/local/cuda/bin:$PATH"
-    export LD_LIBRARY_PATH=“/usr/local/cuda/ lib64:$LD_LIBRARY_PATH”
+    export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 ##### 执行指令更新 .bashrc 文件 - Reload .bashrc with 
     
     $ source .bashrc
