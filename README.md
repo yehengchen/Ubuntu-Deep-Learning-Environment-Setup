@@ -216,7 +216,7 @@
 	#目前使用版本为 4.15
 	Linux CAI 4.15.0-50-generic #54~16.04.1-Ubuntu SMP Wed May 8 15:55:19 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 
-*__若版本低于 4.10 必须升级， 升级方法如下__*
+*__若版本高于 4.10 必须升级， 降级方法如下__*
 	
 	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507_4.15.7-041507.201802280530_all.deb
 
