@@ -101,13 +101,13 @@ __RTX 2080 Ti v4.15__
 ### 安装 CUDA 和 NVIDIA 驱动
 *__注意：确定下载的 cuda 版本后执行指令__*
 	
-	$ sudo chmod 777 cuda_9.0.176_384.81_linux.run
-  $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs
+    $ sudo chmod 777 cuda_9.0.176_384.81_linux.run
+    $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs
     ...
     
    __*进入 CUDA 安装中同意安装 Nvidia 驱动*__
 >     accept #同意安装
->     y #安装Driver，将自动安装CUDA版本相匹配的Nvidia驱动
+>     __y #安装Driver，将自动安装CUDA版本相匹配的Nvidia驱动__
 >     y #安装CUDA Toolkit install
 >     <Enter> #安装到默认目录
 >     y #创建安装目录的软链接
@@ -115,7 +115,7 @@ __RTX 2080 Ti v4.15__
 
 __*安装完成后会显示 CUDA 和 Nvidia 驱动成功安装*__
 ##### A. vim 打开.bashrc 在末行加⼊以下命令
- 	export PATH="/usr/local/cuda/bin:$PATH"
+    export PATH="/usr/local/cuda/bin:$PATH"
     export LD_LIBRARY_PATH=“/usr/local/cuda/ lib64:$LD_LIBRARY_PATH”
 ##### 执行指令更新 .bashrc 文件 - Reload .bashrc with 
     
