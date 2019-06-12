@@ -196,19 +196,19 @@ __RTX 2080__
 
 ### NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running issue
 
+__GTX 1080 Ti__
+
 #### 0. 确认 Kernel 版本是否高于 4.10
 	$ uname -a
 	
 	#目前使用版本为 4.15
 	Linux CAI 4.15.0-50-generic #54~16.04.1-Ubuntu SMP Wed May 8 15:55:19 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 
-*__若版本低于 4.10 必须升级， 升级方法如下__*
+*__若版本高于 4.10 必须降级， 下载 4.10 内核方法如下__*
 	
-	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507_4.15.7-041507.201802280530_all.deb
-
-	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-headers-4.15.7-041507-generic_4.15.7-041507.201802280530_amd64.deb
-
-	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.7/linux-image-4.15.7-041507-generic_4.15.7-041507.201802280530_amd64.deb
+  	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000_4.10.0-041000.201702191831_all.deb
+  	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-headers-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
+	wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-image-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
 
 	sudo dpkg -i *.deb
 *升级完成后 nvidia-smi 出现 GPU 使用狀況栏可不用重新安装 Driver， 若未出现可按步骤重新安装 Driver*
