@@ -91,8 +91,9 @@ __RTX 2080 Ti v4.15__
 <div align="left">
   <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cuda9.0_1.png" width="400"><br><br>
 </div>
-	Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面安装CUDA
-  Ctrl + Alt + F7-( Return back to GUI )回到桌面系统界面
+	
+    Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面安装CUDA
+    Ctrl + Alt + F7-( Return back to GUI )回到桌面系统界面
 
 #### 禁⽤X服务 - Kill your current X server session by typing
 
