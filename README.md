@@ -295,4 +295,8 @@
 
 <div align="left">	
   <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_9.0_10.0_kernel_version.png" width="630">
-   
+
+# References
+[CUDA Toolkit Documentation v9.0](https://docs.nvidia.com/cuda/archive/9.0/)
+[CUDA Toolkit Documentation v10.0](https://docs.nvidia.com/cuda/archive/10.0/)
+
