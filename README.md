@@ -292,6 +292,19 @@
     $ sudo rm -rf /usr/local/cuda/include/cudnn.h
     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
     
+#### 国内 PIP 速度问题 （阿里云pip源）
+
+	cd ~
+	mkdir .pip
+	sudo vim .pip/pip.conf
+
+写入：
+	
+	[global]
+	index-url = http://mirrors.aliyun.com/pypi/simple/
+	[install]
+	trusted-host = mirrors.aliyun.com
+
 
 <div align="left">	
   <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_9.0_10.0_kernel_version.png" width="630">
