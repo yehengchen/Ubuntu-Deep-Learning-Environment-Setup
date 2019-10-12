@@ -1,5 +1,5 @@
 # Ubuntu 16.04 Deep Learning Environment Setup
-### GTX 1080 / RTX 2080 CUDA 一站式驱动安装[[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/README_CN.md)更新
+### GTX 1080 / RTX 2080 CUDA 一站式驱动安装及常见问题笔记[[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/README_CN.md)更新
 *tensorflow-gpu & Nvidia GPU & Cuda & Cudnn 环境配置*
 
 
@@ -292,7 +292,7 @@
     $ sudo rm -rf /usr/local/cuda/include/cudnn.h
     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
     
-#### 国内 PIP 速度问题 （阿里云pip源）
+## 国内 PIP 速度问题 （阿里云pip源）
 
 	cd ~
 	mkdir .pip
