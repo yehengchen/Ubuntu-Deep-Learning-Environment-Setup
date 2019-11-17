@@ -25,7 +25,7 @@
 ***
 
 ## __0. 更新软件源 - Update and Upgrade__
-*若下载速度慢可换源，具体操作见 9-常见配置问题*	
+*若更新速度慢可换源，具体操作见 9-常见配置问题*	
     
     $ sudo apt-get update
     $ sudo apt-get upgrade
@@ -288,7 +288,7 @@
     $ sudo rm -rf /usr/local/cuda/include/cudnn.h
     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn
     
-## 国内 PIP 速度问题 （阿里云pip源）
+## 国内 pip 速度问题换源 （阿里云pip源）
 
 	cd ~
 	mkdir .pip
