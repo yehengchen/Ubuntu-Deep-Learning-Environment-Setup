@@ -8,6 +8,7 @@
   <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_gpu_version.png" width="600">
 
 ***
+## 配置版本
 * #### Ubuntu Kernel Version 4.10.09
 * #### GeForce GTX 1080 Ti
 * #### NVIDIA 390.87
@@ -22,9 +23,10 @@
 * #### cuda 10.0
 * #### cuDNN v7.5.0
 * #### tensorflow-gpu 1.13.1
+* #### python 3.5
 ***
 
-## __0. 更新软件源 - Update and Upgrade__
+## __0. 更新软件源 & 确认配置版本 - Update and Upgrade__
 *若更新速度慢可换源，具体操作见 9-常见配置问题*	
     
     $ sudo apt-get update
