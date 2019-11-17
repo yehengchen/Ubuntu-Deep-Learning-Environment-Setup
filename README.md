@@ -1,12 +1,10 @@
 # Ubuntu 16.04 / 18.04 Deep Learning Environment Setup
-* ### Ubuntu 18.04 - GTX 1080 / RTX 2080 CUDA 和 NVIDIA 驱动同时安装 [[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-
-Learning-Environment-Setup/blob/master/Ubuntu_18.04.md)
 
-* ### Ubuntu 16.04 - GTX 1080 / RTX 2080 CUDA 和 NVIDIA 驱动同时安装 [[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-
-Learning-Environment-Setup/blob/master/Ubuntu_16.04_CN.md)
+* #### Ubuntu 18.04 - GTX 1080 / RTX 2080 CUDA 和 NVIDIA 驱动同时安装 [[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/Ubuntu_18.04.md)
 
-* ### Ubuntu 16.04 - GTX 1080 / RTX 2080 CUDA 和 NVIDIA 驱动单独安装 [[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-
-Learning-Environment-Setup/blob/master/README.md)
+* #### Ubuntu 16.04 - GTX 1080 / RTX 2080 CUDA 和 NVIDIA 驱动同时安装 [[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/Ubuntu_16.04_CN.md)
+
+* #### Ubuntu 16.04 - GTX 1080 / RTX 2080 CUDA 和 NVIDIA 驱动单独安装 [[中文文档]](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/README.md)
 
 *tensorflow-gpu & Nvidia GPU & Cuda & Cudnn 环境配置*
 
