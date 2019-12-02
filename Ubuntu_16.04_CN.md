@@ -161,9 +161,11 @@ __*RTX 2080 Ti 请按指定版本安装 cuDNN 以及更改以下相对应的安�
 
 ##### 然后更新网络连接:
 
-    $ cd /usr/local/cuda/lib64/ $ sudo chmod +r libcudnn.so.7.1.4
+    $ cd /usr/local/cuda/lib64/ 
+    $ sudo chmod +r libcudnn.so.7.1.4
     $ sudo ln -sf libcudnn.so.7.1.4 libcudnn.so.7
     $ sudo ln -sf libcudnn.so.7 libcudnn.so $ sudo ldconfig
+
 ### __5. 安装Tensorflow-gpu_
 
 __GTX 1080__
@@ -173,6 +175,7 @@ __GTX 1080__
 __RTX 2080__
 
      $ pip install --user tensorflow-gpu==1.13.0
+     
 ![tensorflow-gpu](https://img-blog.csdnimg.cn/20190406155752303.png)
 ## 6. 测试 - Testing
 ![tensorflow-gpu](https://img-blog.csdnimg.cn/20190406155821717.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODEwNzI3MQ==,size_16,color_FFFFFF,t_70)
