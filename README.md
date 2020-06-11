@@ -6,7 +6,7 @@
 #### tensorflow-gpu & Nvidia GPU & Cuda & Cudnn 环境配置
 ### Contents
 
- * [Install Nvidia GPU]()
+ * [Install Nvidia GPU](https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup/blob/master/README.md#3-%E5%AE%89%E8%A3%85nvidia%E9%A9%B1%E5%8A%A8---install-the-drivers)
  * [Install CUDA]()
  * [Install cudnn]()
  * [Install tensorflow-gpu]()
