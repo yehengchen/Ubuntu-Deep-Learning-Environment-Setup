@@ -9,7 +9,7 @@
  * [Install Nvidia GPU](https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup/blob/master/README.md#3-%E5%AE%89%E8%A3%85nvidia%E9%A9%B1%E5%8A%A8---install-the-drivers)
  * [Install CUDA](https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup/blob/master/README.md#5-%E5%AE%89%E8%A3%85cuda---cuda-toolkit-90-downloads)
  * [Install cuDNN](https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup/blob/master/README.md#6-%E5%AE%89%E8%A3%85cudnn---download-cudnn)
- * [Install tensorflow-gpu]()
+ * [Install tensorflow-gpu](https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup/blob/master/README.md#7-%E5%AE%89%E8%A3%85tensorflow-gpu---install-tensorflow-gpu)
  * [Issues]()
  
 
