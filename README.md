@@ -176,7 +176,10 @@
     $ sudo ldconfig
 ***
 ## __7. 安装Tensorflow-gpu - Install Tensorflow-gpu__
-*注意这里 tensorflow-gpu 的版本要低于 1.10 否则 cuda 会报错误*
+*注意这里 tensorflow-gpu 的版本 cuda 会报错误*
+    
+    CUDA 9.0 - tensorflow-gpu==1.10.0
+    CUDA 10.0 - tensorflow-gpu==1.13.1
 
     $ sudo pip3 uninstall tensorflow
     $ pip3 install --user tensorflow-gpu==1.10.0
