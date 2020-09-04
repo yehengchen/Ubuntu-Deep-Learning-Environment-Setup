@@ -156,7 +156,8 @@ __*RTX 2080 Ti 请按指定版本安装 cuDNN 以及更改以下相对应的安�
 ##### 解压后的 cudnn-9.0-linux-x64-v7.1.tgz ⽂文件cuda，执行以下指令安装:
 
     $ tar -zxvf cudnn-9.0-linux-x64-v7.1.tgz
-    $ cd cuda $ sudo cp lib64/lib* /usr/local/cuda/lib64/
+    $ cd cuda 
+    $ sudo cp lib64/lib* /usr/local/cuda/lib64/
     $ sudo cp include/cudnn.h /usr/local/cuda/include/
 
 ##### 然后更新网络连接:
@@ -164,7 +165,8 @@ __*RTX 2080 Ti 请按指定版本安装 cuDNN 以及更改以下相对应的安�
     $ cd /usr/local/cuda/lib64/ 
     $ sudo chmod +r libcudnn.so.7.1.4
     $ sudo ln -sf libcudnn.so.7.1.4 libcudnn.so.7
-    $ sudo ln -sf libcudnn.so.7 libcudnn.so $ sudo ldconfig
+    $ sudo ln -sf libcudnn.so.7 libcudnn.so 
+    $ sudo ldconfig
 
 ### __5. 安装Tensorflow-gpu_
 
