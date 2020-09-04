@@ -166,7 +166,8 @@
 ##### 解压后的 cudnn-9.0-linux-x64-v7.1.tgz ⽂文件cuda，执行以下指令安装:-Install cudnn
 
     $ tar -zxvf cudnn-9.0-linux-x64-v7.1.tgz
-    $ cd cuda $ sudo cp lib64/lib* /usr/local/cuda/lib64/
+    $ cd cuda 
+    $ sudo cp lib64/lib* /usr/local/cuda/lib64/
     $ sudo cp include/cudnn.h /usr/local/cuda/include/
 
 ##### 然后更新网络连接:-Updata Network Connection
