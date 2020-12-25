@@ -10,7 +10,7 @@
 * #### Ubuntu Kernel Version 5.0.0-29
 * #### GeForce GTX 1080 Ti / RTX 2080 Ti
 * #### NVIDIA 430.14
-* #### cuda 10.0
+* #### cuda 10.0 / 11.0
 * #### cuDNN v7.6.0
 * #### tensorflow-gpu 1.13.1
 * #### numpy 1.14.5
