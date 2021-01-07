@@ -129,7 +129,7 @@ __*RTX 2080 Ti 请按指定版本安装 cuDNN 以及更改以下相对应的安�
     $ cd /usr/local/cuda/lib64/ $ sudo chmod +r libcudnn.so.7.1.4
     $ sudo ln -sf libcudnn.so.7.1.4 libcudnn.so.7
     $ sudo ln -sf libcudnn.so.7 libcudnn.so $ sudo ldconfig
-### __5. 安装Tensorflow-gpu_
+## 5. 安装Tensorflow-gpu
 
 __GTX 1080 / RTX 2080__
 
