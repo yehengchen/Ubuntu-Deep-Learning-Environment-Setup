@@ -55,7 +55,7 @@
 
 ## __2. 禁用nouveau - Disabling Nouvea__
 
-#### • 新建-blacklist-nouveau.conf 输⼊指令:(Create a file)
+#### • 新建-blacklist-nouveau.conf 输⼊指令:(Create a blacklist file)
 
     $ sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 
