@@ -1,8 +1,7 @@
 # Ubuntu 16.04 / 18.04 Deep Learning Environment Setup
 
 <div align="left">
-  <img src="https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup/blob/master/img/Screenshot%20from%202021-02-05%2010-30-41.png
-" width="600">
+  <img src="https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup/blob/master/img/Screenshot%20from%202021-02-05%2010-30-41.png" width="600">
 
 <div align="left">
   <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_gpu_version.png" width="600">
